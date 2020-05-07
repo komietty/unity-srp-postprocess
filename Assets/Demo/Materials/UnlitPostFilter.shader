@@ -1,4 +1,4 @@
-﻿Shader "Unlit/BasicPass"
+﻿Shader "kmty/UnlitPostFilter"
 {
     Properties {
 		_Color ("Color", Color) = (1, 1, 1, 1)
@@ -9,7 +9,7 @@
         LOD 100
 
         Pass {
-		    Tags { "LightMode" = "BasicPass" }
+		    Tags { "LightMode" = "UnlitPostFilter" }
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag

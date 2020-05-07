@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e7938d2692ec174cb5e1e5a43aef85a, type: 3}
   m_Name: DemoFilter
   m_EditorClassIdentifier: 
-  invertColor: {fileID: 2100000, guid: a4bd84c0c59185940b31dfa22ec9a22d, type: 2}
   copyDepth: {fileID: 2100000, guid: 843def44684b7e2409cacee344c1faa0, type: 2}
+  effectMat: {fileID: 2100000, guid: ca344b98278ff0e4b896ad221fba5201, type: 2}

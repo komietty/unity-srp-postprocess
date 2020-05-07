@@ -57,11 +57,11 @@ namespace kmty.srp {
             ctx.DrawRenderers(cull, ref draw, ref filt);
         }
 
-        #region editor only
         public static void DrawSkybox(CTX ctx, Camera cam) {
             if (cam.clearFlags == CameraClearFlags.Skybox) ctx.DrawSkybox(cam);
         }
 
+        #region editor only
         public static void DrawGizmos(CTX ctx, Camera cam, GizmoSubset subset) {
             #if UNITY_EDITOR
             if (UnityEditor.Handles.ShouldRenderGizmos()) ctx.DrawGizmos(cam, subset);
