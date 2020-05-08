@@ -1,4 +1,4 @@
-# unity-spr-postprocess
+# unity-srp-postprocess
 
 Scriptable rendering pipeline(SRP) sample aming to test executing postprocess at arbitrary timing.  
 With SRP it is now enabled to add postprocess even inside Opaque/Transparent rendering.  
