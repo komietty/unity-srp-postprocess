@@ -4,7 +4,7 @@ Scriptable rendering pipeline(SRP) sample aming to test execute postprocess at a
 With SRP it is now enabled to add postprocess even inside Opaque/Transparent rendering.
 
 ##Usage
-```
+```cs
  protected override void Render(ScriptableRenderContext ctx, Camera[] cams) {
             foreach (var cam in cams) {
                 ctx.SetupCameraProperties(cam);
