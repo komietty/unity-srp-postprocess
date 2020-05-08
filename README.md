@@ -3,7 +3,7 @@
 Scriptable rendering pipeline(SRP) sample aming to test execute postprocess at arbitrary timing.
 With SRP it is now enabled to add postprocess even inside Opaque/Transparent rendering.
 
-##Usage
+## Usage
 ```cs
  protected override void Render(ScriptableRenderContext ctx, Camera[] cams) {
             foreach (var cam in cams) {
@@ -28,7 +28,7 @@ With SRP it is now enabled to add postprocess even inside Opaque/Transparent ren
         }
 ```
 
-##Compability
+## Compability
 
 Tested on Unity 2019.3.11f1, windows10 (RTX 2080 max-q).
 
