@@ -28,6 +28,8 @@ With SRP it is now enabled to add postprocess even inside Opaque/Transparent ren
             }
         }
 ```
+## Demo
+<img src="Imgs/Capture.png" width=100%>
 
 ## Compability
 
